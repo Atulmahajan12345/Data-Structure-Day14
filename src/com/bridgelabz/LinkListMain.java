@@ -6,8 +6,9 @@ public class LinkListMain {
 		LinkListService linkList = new LinkListService();
 		linkList.add(56);
 		linkList.append(70);
-		linkList.insertAfter(56, 30);
-		linkList.pop();
+		linkList.insertAfter(56,30);
+		linkList.print();
+		linkList.poplast();
 		linkList.print();
 	}
 
